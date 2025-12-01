@@ -28,72 +28,68 @@
 
         <div class="hero-content">
             <h1>Rashik Khadka</h1>
-            <p>Frontend Developer & UI/UX Enthusiast. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Frontend Developer &amp; UI/UX Enthusiast. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write something about yourself here... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Write something about yourself here... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>List your skills here...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-
-    
-        <section id="projects">
-            <h2>Projects</h2>
-
-            <div class="project-card">
-                <img src="Images/tic-tac-toe.png" alt="Tic Tac Toe Game">
-                <p>A simple Tic Tac Toe game built during my Python assessment.</p>
-            </div>
-
-            <div class="project-card">
-                <img src="Images/weather-app.png" alt="Weather App">
-                <p>A weather app that fetches live data using an API and displays forecasts.</p>
-            </div>
-
-            <div class="project-card">
-                <img src="Images/horror-game.jpg" alt="Horror Game">
-                <p>A horror-themed 3D game showcasing design and animation work.</p>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Here are some of my core skills:</p>
+            <div class="skills-list">
+                <span class="skill-pill">HTML5</span>
+                <span class="skill-pill">CSS3 / Flexbox</span>
+                <span class="skill-pill">JavaScript</span>
+                <span class="skill-pill">Responsive Design</span>
+                <span class="skill-pill">UI/UX</span>
             </div>
         </section>
 
+        <section id="projects">
+            <h2>Projects</h2>
 
-    <section id="contact-form">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="Images/tic-tac-toe.png" alt="Tic Tac Toe Game">
+                    <p>A simple Tic Tac Toe game built during my Python assessment.</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="Images/weather-app.png" alt="Weather App">
+                    <p>A weather app that fetches live data using an API and displays forecasts.</p>
+                </div>
+
+                <div class="project-card">
+                    <img src="Images/horror-game.jpg" alt="Horror Game">
+                    <p>A horror-themed 3D game showcasing design and animation work.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
             <h2>Contact Me</h2>
-            <form>
-                <label>Name:</label>
+            <form id="contact-form">
+                <label for="name">Name:</label>
                 <input type="text" id="name" required>
 
-                <label>Email:</label>
+                <label for="email">Email:</label>
                 <input type="email" id="email" required>
 
-                <label>Message:</label>
-                <textarea required></textarea>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
 
                 <button type="submit">Send</button>
             </form>
             <div id="form-message"></div>
         </section>
+    </main>
 
     <footer>
         <p>&copy; 2025 Rashik Khadka. All rights reserved.</p>
